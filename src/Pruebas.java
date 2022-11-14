@@ -9,7 +9,13 @@ public class Pruebas {
 		Chiguagua puka = new Chiguagua();
 		
 		Libro petLearn = new Chiguagua();
+		petLearn.leer();
+		//deberia tener el metodo cuidar ya que petLearn es un chiguagua
+		petLearn.cuidar();
 		petLearn = new Caballo();
+		petLearn.leer();
+		
+		Paki = new Caballo();
 		
 	}
 
