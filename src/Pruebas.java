@@ -11,11 +11,13 @@ public class Pruebas {
 		Libro petLearn = new Chiguagua();
 		petLearn.leer();
 		//deberia tener el metodo cuidar ya que petLearn es un chiguagua
-		petLearn.cuidar();
+		((Perro) petLearn).cuidar();
 		petLearn = new Caballo();
 		petLearn.leer();
+		//no puede usar el metodo cuidar debido a que no tiene implementacion en caballo
+		((Perro) petLearn).cuidar();
 		
-		Paki = new Caballo();
+		//Paki = new Caballo();
 		
 	}
 
