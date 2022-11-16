@@ -4,8 +4,13 @@
 #include "Libro.h"
 #include "Perro.h"
 
-class Perro:virtual public Libro, public Perro{
+class Pastor:virtual public Libro, public Perro{
 public:
-  
-}
+  void aprender()override{
+    std::cout<<"Pastor aprende a cuidar";
+  }  
+  void cuidar()override{
+    std::cout<<"Pastor cuidando";
+  }
+};
 #endif
