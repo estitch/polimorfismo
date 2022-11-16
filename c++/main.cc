@@ -5,6 +5,7 @@
 #include "Pastor.h"
 #include "Caballo.h"
 int main(){
-  Chiguagua* petLearn = new Chiguagua;
-  //Libro petLearn = new Chiguagua();
+  //Chiguagua* petLearn = new Chiguagua;
+  Libro* petLearn = new Chiguagua();
+  petLearn = new Pastor();
 }
