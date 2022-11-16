@@ -5,7 +5,7 @@
 class Caballo:virtual public Libro{
 public:
   void aprender()override{
-    std::cout<<"caballo aprende a cuidar";
+    std::cout<<"caballo aprende a cuidar"<<"\n";
   }
 };
 

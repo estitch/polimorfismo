@@ -7,10 +7,10 @@
 class Pastor:virtual public Libro, public Perro{
 public:
   void aprender()override{
-    std::cout<<"Pastor aprende a cuidar";
+    std::cout<<"Pastor aprende a cuidar"<<"\n";
   }  
   void cuidar()override{
-    std::cout<<"Pastor cuidando";
+    std::cout<<"Pastor cuidando"<<"\n";
   }
 };
 #endif
