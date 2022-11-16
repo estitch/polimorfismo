@@ -1,8 +1,8 @@
 
 public class Caballo implements Libro {
 	@Override
-	public void leer() {
-		System.out.println("Aprender a cuidar la casa");
+	public void aprender() {
+		System.out.println("Caballo aprende a cuidar la casa");
 	}
 
 }
