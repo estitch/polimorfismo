@@ -3,7 +3,6 @@ public class Pruebas {
 	public static void reconocer(Libro a) {
 		a.aprender();
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//creamos el objeto paki con polimorfismo de tipo
@@ -23,8 +22,6 @@ public class Pruebas {
 		Caballo pony = new Caballo();
 		//pony.aprender();
 		
-
-		
 		Libro petLearn = new Chiguagua();
 		//petLearn.aprender();
 		//deberia tener el metodo cuidar ya que petLearn es un chiguagua
@@ -34,10 +31,9 @@ public class Pruebas {
 		//no puede usar el metodo cuidar debido a que no tiene implementacion en caballo
 		//((Perro) petLearn).cuidar();
 		//reconocer(petLearn);
-		
+		Perro petLearn = new Chiguagua();
+		Libro libro = new Libro();
 		
 		//Paki = new Caballo();
-		
 	}
-
 }
