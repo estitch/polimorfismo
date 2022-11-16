@@ -7,8 +7,8 @@ public class Chiguagua extends Perro implements Libro{
 	}
 	
 	@Override
-	public void leer() {
-		System.out.println("Aprender a cuidar");
+	public void aprender() {
+		System.out.println("Chiguagua aprende a cuidar");
 	}
 
 }

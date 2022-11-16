@@ -1,3 +1,3 @@
 interface Libro{
-	public void leer();
+	public void aprender();
 }
