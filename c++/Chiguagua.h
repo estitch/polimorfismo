@@ -8,6 +8,8 @@ public:
   void aprender(){
     std::cout<<"Chiguagua aprende a cuidar";
   }
-
+  void cuidar(){
+    std::cout<<"Cuidar la casa";
+  }
 };
 #endif
